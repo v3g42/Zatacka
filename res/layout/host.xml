@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="25dip"
+    >
+
+
+     <TextView  
+android:id="@+id/server_status"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text=""
+    />
+    <Button android:text="Add Bot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:id="@+id/addBot"></Button>  
+    <TableLayout android:id="@+id/players" android:layout_width="fill_parent" android:layout_height="wrap_content"  android:stretchColumns="0">
+  
+</TableLayout>
+  <Button android:text="Start Game" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:id="@+id/startGame"></Button>  
+
+</LinearLayout>

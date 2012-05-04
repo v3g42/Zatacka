@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:paddingTop="3dip"
+	>
+	<com.zatacka.ZatackaServerView
+	 android:id="@+id/zview"
+		android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:background="@drawable/border"
+                 android:layout_weight=".90"
+                />
+	<LinearLayout android:id="@+id/control" 
+	android:layout_height="wrap_content"
+	 android:layout_width="fill_parent" 
+	 android:layout_weight=".10"
+	 android:orientation="horizontal"
+	  android:layout_alignParentBottom="true">
+			<ImageView android:layout_width="wrap_content" android:id="@+id/left" android:layout_height="wrap_content" android:src="@drawable/left"></ImageView>
+			<ImageView android:layout_width="wrap_content" android:id="@+id/right" android:layout_height="wrap_content" android:src="@drawable/right"></ImageView>
+			<TextView android:id="@+id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ScoreBoard"></TextView>
+		</LinearLayout>
+		</LinearLayout>
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+		
+		<TextView
+		 android:id="@+id/text"
+			android:text="Ready !"
+			android:visibility="invisible"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:gravity="center_horizontal"
+			android:textColor="#ff8888ff"
+			android:textSize="24sp"/>
+		<LinearLayout android:id="@+id/control" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="horizontal" android:layout_alignParentBottom="true">
+			<ImageView android:layout_width="wrap_content" android:id="@+id/left" android:layout_height="wrap_content" android:src="@drawable/left"></ImageView>
+			<ImageView android:layout_width="wrap_content" android:id="@+id/right" android:layout_height="wrap_content" android:src="@drawable/right"></ImageView>
+			<TextView android:id="@+id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ScoreBoard"></TextView>
+		</LinearLayout>
+	
+	</RelativeLayout>
+</FrameLayout>
