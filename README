@@ -1,0 +1,13 @@
+Zatacka is a retro game played by 2-6 players.
+
+Each player gets a snake and can move them around the screen .
+
+Last snake to live gets the highest points.
+
+This is a hobby application developed targetting android platforms with 
+
+multiplayer support too (through socket communication )
+
+
+
+
